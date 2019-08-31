@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.test151to200;
 
 public class Leetcode153 {
 	public int findMin(int[] nums) {
