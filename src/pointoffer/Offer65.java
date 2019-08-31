@@ -22,7 +22,6 @@ public class Offer65 {
 		if(books[x*cols+y]==true||matrix[x*cols+y]!=str[index]) {
 			return false;
 		}
-		
 		books[x*cols+y] = true;
 		return isPath(matrix, rows, cols, getIndex(x+1, rows), getIndex(y, cols), books.clone(), str, index+1)
 				||isPath(matrix, rows, cols, getIndex(x-1, rows), getIndex(y, cols), books.clone(), str, index+1)
