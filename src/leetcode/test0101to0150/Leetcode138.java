@@ -11,6 +11,7 @@ public class Leetcode138 {
         	temp.next = node.next;
         	node.next = temp;
         	node = node.next.next;
+        	int q = Integer.MIN_VALUE;
         }
         
         node = head;
