@@ -5,14 +5,14 @@ import java.util.Map;
 
 public class Leetcode552 {
 	
-    int a = 10 * 10 * 10 * 10 * 10 * 10 * 10 * 10 * 10 + 7;
+    static int a = 10 * 10 * 10 * 10 * 10 * 10 * 10 * 10 * 10 + 7;
 
-    public int checkRecord(int n) {
+    public static int checkRecord(int n) {
 		int[][][] map = new int[n][2][3];
     	return checkRecord(1, 0, 0, n, map) ;
     }
     
-    public int checkRecord(int idx, int numA, int numL, int n, int[][][] map) {
+    public static int checkRecord(int idx, int numA, int numL, int n, int[][][] map) {
     	if(idx > n) {
     		return 1;
     	}
@@ -34,7 +34,6 @@ public class Leetcode552 {
     }
     
     public static void main(String[] args) {
-		System.out.println(checkRecord(55555));
 	}
     
     /*
