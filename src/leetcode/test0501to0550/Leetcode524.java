@@ -1,5 +1,7 @@
 package leetcode.test0501to0550;
 
+import java.util.List;
+
 public class Leetcode524 {
 	public String findLongestWord(String s, List<String> dictionary) {
         dictionary.sort((a, b) -> { 
