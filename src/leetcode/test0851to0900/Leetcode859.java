@@ -1,4 +1,4 @@
-package leetcode.leetcode.test0851to0900;
+package leetcode.test0851to0900;
 
 import java.util.HashSet;
 import java.util.Set;
